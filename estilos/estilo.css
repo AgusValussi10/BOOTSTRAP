@@ -8,6 +8,7 @@ body{
 }
 .carroussel{
     width: 60%;
+    height: 95%;
     margin: auto;
     padding: 20px;
 }
@@ -37,4 +38,28 @@ h5{
 }
 h3{
     text-align: justify;
+}
+.accordion{
+    width: 95vw;
+    margin: auto;
+    padding-bottom: 1%;
+}
+/* FOOTER */
+footer{
+    text-align: center;
+    margin-top: 2%;
+    border-top: 1px solid;
+    padding-top: 10px;
+}
+body footer h3{
+    text-align: center;
+    margin-bottom: 5px
+}
+h4{
+    text-align: end;
+    margin-bottom: 5px;
+}
+footer h6{
+    text-align: end;
+    margin-bottom: 5px;
 }

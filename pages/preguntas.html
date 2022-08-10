@@ -1,29 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Preguntas Frecuentes<article>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <p class="iconverd">🥑</p>
-                    <h3>Nuestros</h3>
-                    <h3 class="h3color">Productos</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum maxime hic, doloribus, cupiditate tenetur fugit ut soluta, id dolorem fugiat sapiente! <strong>Excepturi eaque provident perspiciatis sequi sunt eveniet odit quia sapiente in porro.</strong> Sunt, nobis.</p>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="../estilos/estilo.css">
+    <title>Preguntas Frecuentes</title>
+        
+    <header>
+        <nav class="navbar navbar-expand-lg bg-success">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../media/logo.png" width="200px" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./preguntas.html">Preguntas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./encontranos.html">Encontranos</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col">
-                    <p class="iconverd">🍎</p>
-                    <h3>Las</h3>
-                    <h3 class="h3color">Entregas</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <strong>Earum maxime hic, doloribus, cupiditate tenetur fugit ut soluta, id dolorem fugiat sapiente!</strong> Excepturi eaque provident perspiciatis sequi sunt eveniet odit quia sapiente in porro. Sunt, nobis.</p>
+            </div>
+        </nav>
+    </header>
+    <div class="productos"><h3>Preguntas</h3></div>
+    <main>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item bg-success">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button bg-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Pregunta Frecuente 1
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item bg-success">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button  bg-success collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Pregunta Frecuente 2
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item bg-success">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed bg-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Pregunta Frecuente 3
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
                 </div>
             </div>
         </div>
-    </article></title>
-</head>
-<body>
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item bg-success">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed bg-success" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Accordion Item #1
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item bg-success">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed bg-success" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Accordion Item #2
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item bg-success">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed bg-success" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Accordion Item #3
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <footer class="bg-success">
+        <h3><em> Te dejamos nuestras redes👇 </em></h3>
+        <a title="WhatsApp" href="#" target="_blank"> <img src="../media/whatsapp.png" alt="WhastApp" width="60px"> </a>
+        <a title="Instagram" href="#" target="_blank"> <img src="../media/instagram.png" alt="Instagram" width="60px"> </a>
+        <a title="Facebook" href="#" target="_blank"> <img src="../media/facebook.png" alt="Facebook" width="60px"> </a>
+        <a title="Twitter" href="#" target="_blank"> <img src="../media/gorjeo.png" alt="Twitter" width="60px"> </a>
+        <br><br><br>
+        <h4 class="C">Todos los derechos reservados ©</h4>
+        <h6>
+            Resistencia - Chaco <br>
+            Agustin Valussi <br>
+            Coder House - 2022
+        </h6>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>    
+
 </body>
 </html>

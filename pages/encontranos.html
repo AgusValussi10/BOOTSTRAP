@@ -4,9 +4,115 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encontranos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="../estilos/estilo.css">
+    <title>Ubicacion</title>
 </head>
-<body>
     
+<header>
+    <nav class="navbar navbar-expand-lg bg-success">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><img src="../media/logo.png" width="200px" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./preguntas.html">Preguntas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./encontranos.html">Ubicacion</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div class="productos"><h3>Ubicacion</h3></div>
+    <main>
+        <section class="iframe">
+            <article class="iframe">
+                <div class="iframe">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.432135397119!2d-55.82777548247614!3d-27.48693307726687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9457c7f623f48e71%3A0x42093642cb5b1211!2zVkVSRFVMRVLDjUEgTEEgVkVSREUgRlJVRlJVIPCfjY7wn42P8J-NkPCfjYvwn42M8J-Nk_CfjYXwn6WR8J-lrPCfpZLwn6WV!5e0!3m2!1ses-419!2sar!4v1660151834805!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </article>
+        </section>
+
+        <section class="mb-4">
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+            <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+                a matter of hours to help you.</p>
+            <div class="row">
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="name" name="name" class="form-control">
+                                    <label for="name" class="">Nombre Completo</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email" class="">Correo Electronico</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                    <label for="subject" class="">Motivo de su Mensaje</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                    <label for="message">Escribe tu Mensaje</label>
+                                </div>
+
+                            </div>
+                        </div>
+                    </form>
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                    </div>
+                    <div class="status"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-success">
+        <h3><em> Te dejamos nuestras redes👇 </em></h3>
+        <a title="WhatsApp" href="#" target="_blank"> <img src="../media/whatsapp.png" alt="WhastApp" width="60px"> </a>
+        <a title="Instagram" href="#" target="_blank"> <img src="../media/instagram.png" alt="Instagram" width="60px"> </a>
+        <a title="Facebook" href="#" target="_blank"> <img src="../media/facebook.png" alt="Facebook" width="60px"> </a>
+        <a title="Twitter" href="#" target="_blank"> <img src="../media/gorjeo.png" alt="Twitter" width="60px"> </a>
+        <br><br><br>
+        <h4 class="C">Todos los derechos reservados ©</h4>
+        <h6>
+            Resistencia - Chaco <br>
+            Agustin Valussi <br>
+            Coder House - 2022
+        </h6>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
